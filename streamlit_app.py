@@ -14,8 +14,8 @@ def load_data():
     appointments = pd.read_csv("expanded_clinic_appointments.csv")
     candidates = pd.read_csv("expanded_job_candidates.csv")
     # Load patient medication data
-    medications = pd.read_csv("patient_medication_data.csv")
-    return appointments, candidates, medications
+    medications = pd.read_csv("expanded_medication_schedules.csv")
+    return appointments, candidates, medication schedules
 
 appointments, candidates, medications = load_data()
 
@@ -23,7 +23,7 @@ st.title("🌐 HealthConnect App")
 
 
 # Main tabs for navigation
-tab1, tab2, tab3 = st.tabs(["Clinic Appointments", "Job Candidates", "Patient Medications"])
+tab1, tab2, tab3 = st.tabs(["Clinic Appointments", "Job Candidates", "Patient Medication Schedules"])
 
 with tab1:
     st.header("Clinic Appointments Overview")
@@ -68,7 +68,7 @@ with tab2:
             st.success(f"Prediction: {'Hired' if prediction else 'Not Hired'}")
 
 with tab3:
-    st.header("Patient Medication Data")
+    st.header("Patient Medication Scedules")
     if st.checkbox("Show raw medication data"):
         st.write(medications.head())
 
