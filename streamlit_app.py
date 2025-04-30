@@ -8,16 +8,35 @@ from sklearn.metrics import accuracy_score
 
 st.set_page_config(page_title="Clinic & Candidate Analysis App", layout="wide")
 
-# Load data
-@st.cache_data
 def load_data():
-    appointments = pd.read_csv("expanded_clinic_appointments.csv")
-    candidates = pd.read_csv("expanded_job_candidates.csv")
-    # Load patient medication data
-    medications = pd.read_csv("expanded_medication_schedules.csv")
-    return appointments, candidates, medication schedules
+    def load_csv(label, filename):
+        # Try loading from disk
+        if os.path.exists(filename):
+            st.success(f"Loaded {label} from local file.")
+            return pd.read_csv(filename)
+
+        # If not found, let user upload
+        st.warning(f"{label} file not found: '{filename}'. Please upload it below.")
+        uploaded_file = st.file_uploader(f"Upload {label}", type="csv", key=label)
+
+        if uploaded_file is not None:
+            st.success(f"{label} uploaded successfully.")
+            return pd.read_csv(uploaded_file)
+        else:
+            st.error(f"{label} is required to proceed.")
+            return pd.DataFrame()
+
+    appointments = load_csv("Appointment Data", "appointment_data.csv")
+    candidates = load_csv("Candidate Data", "candidate_data.csv")
+    medications = load_csv("Medication Data", "expanded_medication_schedules.csv")
+
+    return appointments, candidates, medications
 
 appointments, candidates, medications = load_data()
+
+# Stop app if any critical file is still missing
+if appointments.empty or candidates.empty or medications.empty:
+    st.stop()
 
 st.title("🌐 HealthConnect App")
 
