@@ -27,8 +27,8 @@ def load_data():
             st.error(f"{label} is required to proceed.")
             return pd.DataFrame()
 
-    appointments = load_csv("Appointment Data", "appointment_data.csv")
-    candidates = load_csv("Candidate Data", "candidate_data.csv")
+    appointments = load_csv("Appointment Data", "expanded_clinic_appointments.csv")
+    candidates = load_csv("Candidate Data", "expanded_job_candidates.csv")
     medications = load_csv("Medication Data", "expanded_medication_schedules.csv")
 
     return appointments, candidates, medications
