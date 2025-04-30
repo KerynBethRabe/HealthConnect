@@ -1,0 +1,21 @@
+candidate_id,full_name,skills,experience_years,qualifications,availability,preferred_location,job_type
+C001,John Smith,"Healthcare Administration, Patient Care",5,Registered Nurse,Immediate,Main Clinic,Full-time
+C002,Mary Johnson,"Elder Care, Medication Management",3,Licensed Practical Nurse,2 weeks notice,East Wing,Part-time
+C003,David Brown,"Patient Care, Emergency Response",7,Nurse Practitioner,1 month notice,Any Location,Full-time
+C004,Sarah Wilson,"Mental Health, Patient Care",4,Psychiatric Nurse,Immediate,Mental Health Wing,Full-time
+C005,Michael Davis,"Elder Care, Rehabilitation",6,Physical Therapist,2 weeks notice,Rehabilitation Center,Full-time
+C006,Emma Taylor,"Patient Care, Wound Care",3,Registered Nurse,1 week notice,Main Clinic,Part-time
+C007,James Anderson,"Pain Management, Patient Care",8,Pain Management Specialist,1 month notice,Pain Clinic,Full-time
+C008,Lisa Roberts,"Cardiology, Patient Care",5,Cardiac Nurse,2 weeks notice,Heart Center,Full-time
+C009,Robert White,Mental Health Counseling,4,Mental Health Counselor,Immediate,Mental Health Wing,Part-time
+C010,Jennifer Miller,Healthcare Administration,6,Healthcare Administrator,1 month notice,Any Location,Full-time
+C011,Thomas Clark,"Elder Care, Dementia Care",7,Geriatric Specialist,2 weeks notice,East Wing,Full-time
+C012,Patricia Moore,"Medication Management, Patient Care",4,Registered Nurse,Immediate,Main Clinic,Full-time
+C013,Kevin Lewis,"Physical Therapy, Rehabilitation",5,Physical Therapist,2 weeks notice,Rehabilitation Center,Full-time
+C014,Susan Hall,"Mental Health, Counseling",6,Clinical Psychologist,1 month notice,Mental Health Wing,Part-time
+C015,Richard Young,"Emergency Care, Patient Care",8,Emergency Nurse,Immediate,Emergency Wing,Full-time
+C016,Laura King,"Elder Care, Patient Care",3,Licensed Practical Nurse,2 weeks notice,East Wing,Full-time
+C017,William Turner,"Healthcare Technology, Administration",5,Healthcare IT Specialist,1 month notice,Any Location,Full-time
+C018,Elizabeth Baker,"Patient Care, Wound Care",4,Registered Nurse,Immediate,Main Clinic,Part-time
+C019,Daniel Cooper,"Mental Health, Crisis Management",7,Crisis Counselor,2 weeks notice,Mental Health Wing,Full-time
+C020,Margaret Adams,"Elder Care, Patient Care",6,Geriatric Nurse,1 month notice,East Wing,Full-time
