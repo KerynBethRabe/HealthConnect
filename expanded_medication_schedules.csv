@@ -1,0 +1,21 @@
+patient_id,medication_name,dosage,frequency,time_of_day,start_date,end_date,next_refill_date
+P001,Metformin,500mg,Twice daily,"09:00,21:00",2024-01-01,2024-06-30,2024-02-01
+P002,Lisinopril,10mg,Once daily,08:00:00,2024-01-01,2024-12-31,2024-03-01
+P003,Simvastatin,20mg,Once daily,20:00:00,2024-01-01,2024-12-31,2024-02-15
+P004,Amlodipine,5mg,Once daily,08:00:00,2024-01-15,2024-12-31,2024-02-15
+P005,Aspirin,81mg,Once daily,09:00:00,2024-01-01,2024-12-31,2024-02-20
+P006,Levothyroxine,100mcg,Once daily,07:00:00,2024-01-01,2024-12-31,2024-02-28
+P007,Omeprazole,20mg,Once daily,08:00:00,2024-01-01,2024-06-30,2024-03-01
+P008,Gabapentin,300mg,Thrice daily,"08:00,14:00,20:00",2024-01-01,2024-12-31,2024-02-15
+P009,Metoprolol,25mg,Twice daily,"09:00,21:00",2024-01-01,2024-12-31,2024-03-05
+P010,Sertraline,50mg,Once daily,09:00:00,2024-01-01,2024-06-30,2024-02-25
+P011,Atorvastatin,40mg,Once daily,20:00:00,2024-01-15,2024-12-31,2024-03-15
+P012,Furosemide,40mg,Once daily,08:00:00,2024-01-01,2024-12-31,2024-02-10
+P013,Pantoprazole,40mg,Once daily,08:00:00,2024-01-01,2024-06-30,2024-03-01
+P014,Carvedilol,12.5mg,Twice daily,"09:00,21:00",2024-01-01,2024-12-31,2024-02-20
+P015,Glipizide,5mg,Once daily,08:00:00,2024-01-01,2024-12-31,2024-03-10
+P016,Losartan,50mg,Once daily,09:00:00,2024-01-15,2024-12-31,2024-02-15
+P017,Duloxetine,30mg,Once daily,09:00:00,2024-01-01,2024-06-30,2024-03-01
+P018,Clopidogrel,75mg,Once daily,08:00:00,2024-01-01,2024-12-31,2024-02-28
+P019,Escitalopram,10mg,Once daily,20:00:00,2024-01-01,2024-12-31,2024-03-05
+P020,Warfarin,5mg,Once daily,18:00:00,2024-01-01,2024-06-30,2024-02-15
