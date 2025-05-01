@@ -40,6 +40,9 @@ A simple Streamlit app
 The packages used in this project are the following: matplotlib, seaborn, python, numpy & pandas.
 
 1.4 Team Members
+
 Siphosethu Rululu   
+https://github.com/SIPHOSETHU2303
 Keryn Beth Rabe
+https://github.com/KerynBethRabe
 
